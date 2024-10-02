@@ -7,8 +7,8 @@ protected:
     double width;
 public:
     Shape(double h, double w) : height(h), width(w) {}
-    virtual double area() = 0; // pure virtual function
-    virtual double perimeter() = 0; // pure virtual function
+    virtual double area() = 0; 
+    virtual double perimeter() = 0; 
 };
 
 class Rectangle : public Shape {
